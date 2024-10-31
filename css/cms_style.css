@@ -1,0 +1,104 @@
+div#heres-jonny {
+    display:block;
+    max-width:100%;
+    min-width:700px
+}
+
+
+img.icon-twitter, img.icon-gplus {
+    display: inline;
+    height: 32px;
+    width: 32px
+}
+
+div#tabs-pands-script ul {
+    list-style:none
+}
+
+div#tabs-pands-script ul li {
+    background:#fff;
+    display:inline-block;
+    height:30px;
+    padding:10px 15px 0 15px;
+    width:auto
+}
+
+div#tabs-pands-script ul li a {
+    color:#21759B;
+    font-weight:bold;
+    text-decoration:none
+}
+
+div#tabs-pands-script ul li:hover, div#tabs-pands-script ul li:hover a, div#tabs-pands-script ul li.ui-tabs-active,
+div#tabs-pands-script ul li.ui-tabs-active a{
+    background:#777;
+    border-bottom-color: #6D6D6D;
+    border-top-color: gray;
+    color: #fff;
+    text-shadow: 0 -1px 0 #333;
+}
+
+div#tabs-pands-script ul li {
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    border: 0px solid #800000;
+    border-radius: 3px 3px 0px 0px
+}
+
+table.pands-cms-options-table {
+    display:block;
+    padding:3px;
+    max-width:600px;
+    min-width:300px
+}
+
+table.pands-cms-options-table td.panel-title {
+    background:#777;
+    color:#fff;
+    filter: dropshadow(color=#666, offx=1, offy=1);
+    text-shadow: 1px 1px 1px #666
+}
+
+table.pands-cms-options-table th {
+    font-weight:normal;
+    text-align:left
+}
+
+table.pands-cms-options-table th, table.pands-cms-options-table td {
+    background:#e8e8e8;
+    margin:6px;
+    padding:6px
+}
+
+table.pands-cms-options-table .th-small {
+    color:#666;
+    font-size:86%
+}
+
+table.pands-cms-options-table td > input {
+    display:block;
+    width:auto
+}
+
+table.pands-cms-options-table td {
+    vertical-align:top
+}
+
+table.pands-cms-options-table input.ui-widget-text {
+    display:block;
+    width:300px
+}
+
+small.red { color:#ff0000 }
+
+.img-prev-container { position: relative }
+.cms_panel_container { position: relative }
+
+.del-icon {
+    background: url('../img/cross-icon.png') no-repeat;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px
+}
